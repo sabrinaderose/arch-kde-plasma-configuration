@@ -8,7 +8,7 @@
 ## 📘 Summary
 
 This README documents a successful rebuild of **Arch Linux with KDE Plasma**, following:
-- A failed Hyprland/NVIDIA setup → [arch-linux-hyprland-nvidia-failure](https://github.com/sabrinaderose/arch-linux-hyprland-nvidia-failure)
+- A failed Hyprland/NVIDIA setup → [arch-linux-hyprland-nvidia-failure](https://github.com/sabrinaderose/arch-linux-hyprland-nvidia-failures)
 - A full system wipe from Windows ISO imaging tools → [arch-linux-nuke-and-recovery](https://github.com/sabrinaderose/arch-linux-nuke-and-recovery)
 
 ---
@@ -139,7 +139,7 @@ CMake Error at CMakeLists.txt:2 (cmake_minimum_required):
 
 ## 🔗 Related Repositories
 
-- [`arch-linux-hyprland-nvidia-failure`](https://github.com/sabrinaderose/arch-linux-hyprland-nvidia-failure)
+- [`arch-linux-hyprland-nvidia-failure`](https://github.com/sabrinaderose/arch-linux-hyprland-nvidia-failures)
 - [`arch-linux-nuke-and-recovery`](https://github.com/sabrinaderose/arch-linux-nuke-and-recovery)
 
 - [ ] Convert chat logs and terminal history into wiki-style GitHub pages
