@@ -108,6 +108,9 @@ ssh -T git@github.com
 > [!TIP]
 > Neo-Y2K aesthetic inspired by *Serial Experiments Lain*
 
+> [!NOTE]
+> ***This section is planned, but not completed: future updates will be created in a separate repository (WIP)***
+
 - **Global Theme**: Neo-Y2K, Lain-inspired
 - **SDDM**: Custom login theming in progress
 - **Kvantum**: Full Qt theming engine
@@ -119,7 +122,7 @@ ssh -T git@github.com
 
 ## 📦 Known Issues
 
-- ❗ KDE + NVIDIA has slight stuttering on Wayland; defaulting to X11
+- ❗ KDE + NVIDIA has slight stuttering on Wayland; defaulting to X11 is a reliable option. 
 - ❌ Latte-dock fails to build:
 ```text
 CMake Error at CMakeLists.txt:2 (cmake_minimum_required):
@@ -130,10 +133,11 @@ CMake Error at CMakeLists.txt:2 (cmake_minimum_required):
 
 ## 🧠 Lessons Learned
 
-- Do not rely on experimental distros (e.g., Nobara Steam Edition) in multiboot configs
-- Some scripts (like Spicetify) can break essential system configs (e.g., DNS)
+- Do not rely on experimental distros (e.g., Nobara Steam Edition) in multiboot configs. I suggest alternatives, such as [`Bazzite`](https://bazzite.gg/) *(there are reported issues in regards for HDR support)*
+- Some scripts (like [`Spicetify`](https://spicetify.app/) ) can break essential system configs (e.g. DNS)
 - Always validate a chroot environment before attempting repair
-- Recovery and rebuild are part of the story — not failure
+- Recovery and rebuild are part of the story: 
+> *"“Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.”* - Samuel Beckett
 
 ---
 
@@ -141,7 +145,3 @@ CMake Error at CMakeLists.txt:2 (cmake_minimum_required):
 
 - [`arch-linux-hyprland-nvidia-failure`](https://github.com/sabrinaderose/arch-linux-hyprland-nvidia-failures)
 - [`arch-linux-nuke-and-recovery`](https://github.com/sabrinaderose/arch-linux-nuke-and-recovery)
-
-- [ ] Convert chat logs and terminal history into wiki-style GitHub pages
-- [ ] Finalize Neo-Y2K ricing for showcase
-- [ ] Integrate all repos into WGU resume and job applications
