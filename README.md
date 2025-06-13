@@ -1,7 +1,7 @@
 # 🖥️ Arch Linux KDE Daily Driver Setup
 
 > [!NOTE]
-> This project documents the **final successful rebuild** of Arch Linux with KDE Plasma, used as a secure, rice-ready daily driver after two failed attempts. It’s designed for real-world productivity, documentation, and portfolio development.
+> This project documents the **final successful rebuild** of Arch Linux with KDE Plasma, used as a secure, daily driver after two failed attempts. It’s designed for real-world productivity, documentation, and portfolio development.
 
 ---
 
@@ -12,7 +12,7 @@ This is a **stable, secure**, and practical Arch setup running **KDE Plasma (X11
 - GitHub project documentation  
 - LPI Linux Essentials prep  
 - Real-world, daily driver productivity  
-- Custom theming (Neo-Y2K + Lain aesthetic)
+- Custom theming (Neo-Y2K + Lain aesthetic) [WiP]
 
 ---
 
@@ -71,7 +71,7 @@ yay -S topgrade
 ## 🎨 Ricing Plans (Neo-Y2K / Lain Aesthetic)
 
 > [!TIP]
-> The goal is to create a fully themed cyber-aesthetic inspired by *Serial Experiments Lain* and early 2000s tech nostalgia.
+> The goal is to create a fully themed cyber-aesthetic inspired by *Serial Experiments Lain* and early 2000s tech nostalgia. [WiP]
 
 - **Wallpaper**: [`wallhaven.cc/w/exkqk8`](https://wallhaven.cc/w/exkqk8)
 - **Kvantum**: Full Qt theming
@@ -82,31 +82,11 @@ yay -S topgrade
 
 ---
 
-## 🐧 GitHub Integration
-
-### ✅ SSH Access
-
-```bash
-ssh-keygen -t ed25519 -C "arimitkitsune@gmail.com"
-# Add key to GitHub, then:
-ssh -T git@github.com
-```
-
-### 📂 Repo Usage
-
-- Structured across **multiple purpose-driven repos**
-- Follows a **documentation-first approach**
-- Resume directly references GitHub as proof of technical depth
-
----
-
 ## 🧠 Lessons Learned
 
 - ✅ KDE Plasma is modular and compatible with NVIDIA — unlike Hyprland
 - 🧱 Building from failure creates long-term confidence and control
 - 📚 Documenting terminal history and configs is *not optional*
-- 🎓 GitHub-linked repos are excellent resume assets
-- 🧠 Mental resilience and system knowledge grow in crisis
 
 ---
 
